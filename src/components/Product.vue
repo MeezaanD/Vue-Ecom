@@ -7,8 +7,7 @@
                   <h4>{{item.product}}</h4> 
                   <h5>{{item.studio}}</h5>
                   <p>{{item.Price}}</p>
-                  <button class="btn" v-on:click="showAlert">Purchase</button>
-                   
+                  <button class="btn" v-on:click="showAlert">Purchase</button> 
               </div>
         </div>
     </body>
@@ -69,11 +68,15 @@
         text-align: center;
         padding: 20px;
     }
-        .container {
+    .container {
             display: flex;
             gap: 5rem;
             align-items: center;
             justify-content: center;
             padding: 20px;
-        }
+     }
+
+     .card {
+        width: 400px;
+     }
     </style>
